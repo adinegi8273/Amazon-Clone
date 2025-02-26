@@ -1,0 +1,254 @@
+*{
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border:border-box;
+    color:white;
+}
+
+
+.navbar{
+    height: 61px;
+    background-color: black;
+    color:white;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+/**Box1**/
+.navbar_logo{
+    height: 60px;
+    width:100px;
+}
+.logo{
+    height:60px;
+    background-image: url('amazon_black.png');
+    background-size: cover;
+
+}
+.border{
+    border:1px solid transparent;
+}
+.border:hover{
+    border : 1px solid white;
+}
+
+/**Box2**/
+.Address{
+    display: flex;
+}
+
+.add-first{
+    font-size: 0.8rem;
+    color:#CCCC;
+    margin-left:15px;
+}
+.add-second{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 4px;
+}
+
+/**Box 3**/
+
+#search_dropdown{
+    background-color: #CCCC;
+    background-size: cover;
+    width:45px;
+    padding-left:5px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius:4px;
+    border:none;
+}
+.nav-search{
+    background-color:white ;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    height:40px;
+    width:620px;
+    border-radius:4px;
+}
+.nav-search:hover{
+    border:2px solid orange;
+}
+#search_input{
+    width:620px;
+    border:none;
+    font-size:15px;
+    padding-left:1rem;
+}
+#search_button{
+    width:60px;
+    border:none;
+    background-color: orange;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+/**box4 & box5**/
+
+.signIn{
+    font-size: 12px;
+}
+.navAccount{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/**Box6**/
+
+.nav-Cart{
+    display:flex;
+}
+.Symbol{
+    margin-top:8px;
+    font-size: 30px;
+}
+.Cart-text{
+    margin-top:19px;
+    margin-left:5px;
+    font-weight: 700;
+}
+/**Panel**/
+.panel{
+    height:39px;
+    background-color: #222f3d;
+    display:flex;
+    font-size: 14px;
+    align-items: center;
+}
+.panel-all {
+    font-weight: 700;
+}
+.panelOpt{
+    height: 28px;
+    width:500px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+/**hero section**/
+
+.hero{
+    background-image: url('hero.jpg');
+    background-size: cover;
+    height:350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:90%;
+    font-size: 14px;
+    color:black;
+    background-color: white;
+    height:40px;
+    margin-bottom:10px;
+}
+.hero-msg a{
+    color:#007185;
+}
+/**shop-section**/
+
+main{
+    background-color: #dcdcdc;
+}
+
+.shop-section{
+    display: flex;
+}
+.box{
+    background-color: white;
+    color:black;
+    height:360px;
+    width:300px;
+    margin:15px;
+}
+.box-img{
+    height:250px;
+    width:240px;
+    background-size: cover;
+}
+
+.box-content{
+    margin-left:20px;
+    margin-top:20px;
+}
+.box-content p{
+    margin-top:15px;
+    font-size: 13px;
+    color:#007185;
+}
+.box-content h2{
+    margin-bottom:10px;
+
+}
+
+/**Footer**/
+
+.foot-panel1{
+    height:50px;
+    color:white;
+    background-color:#37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+.foot-panel2{
+    padding:40px;
+    background-color:#222f3d;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul p{
+    display: block;
+    font-size:16px;
+    font-weight: 700;
+}
+ul a{
+    display: block;
+    margin-top:10px;
+    font-size: 14px;
+    color:#DDDDDD;
+}
+
+.foot-panel3{
+    height:70px;
+    background-color: #222f3d;
+    border-top:1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-logo{
+    height:60px;
+    background-image: url('amazon.png');
+    background-size: cover;
+    width:80px;
+}
+
+.foot-panel4 {
+    background-color: black;
+    color:white;
+    height:80px;
+    height: 70px;
+    text-align: center;
+    padding-top:25px;
+    font-size: 12px;
+}
+.foot-panel4 p{
+    padding-top:5px;
+}
+
+.links a{
+    padding-right:10px;
+}
