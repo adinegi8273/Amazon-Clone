@@ -21,7 +21,7 @@
 }
 .logo{
     height:60px;
-    background-image: url('Images/amazon_black.png');
+    background-image: url('../Images/amazon_black.png');
     background-size: cover;
 
 }
@@ -132,7 +132,7 @@
 /**hero section**/
 
 .hero{
-    background-image: url('Images/hero.jpg');
+    background-image: url('../Images/hero.jpg');
     background-size: cover;
     height:350px;
     display: flex;
@@ -231,7 +231,7 @@ ul a{
 
 .foot-logo{
     height:60px;
-    background-image: url('Images/amazon.png');
+    background-image: url('../Images/amazon.png');
     background-size: cover;
     width:80px;
 }
