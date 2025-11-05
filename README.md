@@ -30,3 +30,6 @@ open index.html
 
 <h2>License</h2>
 <p>📝 This project is open-source and available under the MIT License.</p>
+
+<h2>Visit the website using this link.</h2>
+<p>📝  https://adinegi8273.github.io/Amazon-Clone/</p>
